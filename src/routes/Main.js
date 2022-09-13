@@ -1,9 +1,10 @@
-import React from "react";
+import React,{useState} from "react";
 import { Container, Row } from "react-bootstrap";
 import Products from "./Products";
 import "./Main.scss";
 
 function Main(props) {
+
   return (
     <div>
       <div className="main-bg"></div>

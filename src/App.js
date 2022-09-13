@@ -18,7 +18,7 @@ function App() {
       <NavBar />
       <Routes>
         <Route path="/" element={<Main shoes={shoes} />} />
-        <Route path="/detail" element={<ProductDetail />} />
+        <Route path="/detail/:id" element={<ProductDetail shoes={shoes} />} />
         {/* 아래는 nested route 라는 것 */}
         <Route path="/about" element={<About />}>
           <Route path="member" element={<div>멤버</div>} />
