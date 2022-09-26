@@ -6,7 +6,7 @@ function Products(props) {
   const navigate = useNavigate();
 
   return (
-    <Col>
+    <Col sm={4}>
       <div>
         <img
           onClick={() => {
